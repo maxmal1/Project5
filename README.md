@@ -2,6 +2,7 @@
 
 This assumes you have the correct data in the folder. Everything can be run from the .ipynb file provided.
 
+# Data
 If you would like to get the data, please do the following 
 
 '''
@@ -12,3 +13,13 @@ If you would like to get the data, please do the following
 Or download from the following link: https://github.com/adalca/medical-datasets/blob/master/neurite-oasis.md
 
 If you would like to load the pretrained weights, make sure you set 'load_weights' in TemplateCreation to True, and ensure that the path to the vxmDense model you'd like to load is correct.
+
+# Registration
+To train a General Registration Network, follow the below command \
+``` cd Project5/voxelmorph/scripts/torch/train.py ```
+
+```python train.py --img-list train_list.txt --model-dir . --bidir ```
+
+
+# Deep Atlas Building
+All the results can be found within ```Project5/project5.ipynb```
