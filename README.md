@@ -16,10 +16,10 @@ If you would like to load the pretrained weights, make sure you set 'load_weight
 
 # Registration
 To train a General Registration Network, follow the below command \
-``` cd Project5/voxelmorph/scripts/torch/train.py ```
+``` cd Project5/voxelmorph/scripts/torch/register_train.py ```
 
 ```python train.py --img-list train_list.txt --model-dir . --bidir ```
 
-
+Model checkpoints can be found within ```project5/voxelmorph/models/```
 # Deep Atlas Building
-All the results can be found within ```Project5/project5.ipynb```
+All the instructions and results can be found within ```Project5/project5.ipynb```
